@@ -1,0 +1,37 @@
+{
+  "description": "AVR toolchain for Windows by Zak Kemble",
+  "versions": [
+    {
+      "version": "15.2.0",
+      "bin_dirs": [
+        "bin"
+      ],
+      "archives": [
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "sha256": "3bcfdbdbff6e3576ef0bef9e119b16f7012657d30f002d6d9d4848a7efd4f8b7",
+          "url": "https://github.com/ZakKemble/avr-gcc-build/releases/download/v15.2.0-1/avr-gcc-15.2.0-x64-windows.zip",
+          "extract_dir": "avr-gcc-15.2.0-x64-windows"
+        },
+        {
+          "os": "windows",
+          "arch": "x86",
+          "sha256": "61da9f3ecbbf1148c922717aaf5d1a355d566201fb180af66099f4f8ae96a900",
+          "url": "https://github.com/ZakKemble/avr-gcc-build/releases/download/v15.2.0-1/avr-gcc-15.2.0-x86-windows.zip",
+          "extract_dir": "avr-gcc-15.2.0-x86-windows"
+        },
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "sha256": "d90765e6d975950afa235aa998122f97aae8b00504399068b6c9d0bf4994b0fe",
+          "url": "https://github.com/ZakKemble/avr-gcc-build/releases/download/v15.2.0-1/avr-gcc-15.2.0-x64-linux.tar.bz2",
+          "extract_dir": "avr-gcc-15.2.0-x64-linux"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "homepage": "https://blog.zakkemble.net/avr-gcc-builds/"
+}
