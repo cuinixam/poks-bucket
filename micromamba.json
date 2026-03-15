@@ -1,0 +1,45 @@
+{
+  "description": "Micromamba package manager",
+  "homepage": "https://mamba.readthedocs.io",
+  "license": "BSD-3-Clause",
+  "versions": [
+    {
+      "version": "2.4.0-1",
+      "bin_dirs": [
+        "bin"
+      ],
+      "archives": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-linux-64.tar.bz2",
+          "sha256": "3dbcca4c4b3e64e2b0c7ca7121307e687b6c10ce7fe889f21d5c10d817f983a9"
+        },
+        {
+          "os": "linux",
+          "arch": "aarch64",
+          "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-linux-aarch64.tar.bz2",
+          "sha256": "9dd1e427bb173730d57a025a7536b3e036af8890b28f524b53f7a4b53e373ced"
+        },
+        {
+          "os": "macos",
+          "arch": "x86_64",
+          "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-osx-64.tar.bz2",
+          "sha256": "89334976546685aa875a619643c0ef12a1269e6d8df66e6f8696d0a1c47af044"
+        },
+        {
+          "os": "macos",
+          "arch": "aarch64",
+          "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-osx-arm64.tar.bz2",
+          "sha256": "55754cabf1c892fd057251138559eda3464616639acab384264b45c4fbc6e8aa"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-win-64.tar.bz2",
+          "sha256": "ae9431c26517727c781e32b90ec23c5785a8363c60500d1f46490b779511d139"
+        }
+      ]
+    }
+  ]
+}
