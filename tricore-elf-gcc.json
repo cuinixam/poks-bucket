@@ -1,0 +1,28 @@
+{
+  "description": "Tricore GNU toolchain for Infineon AURIX (tricore-elf-), incl. GDB and qemu-system-tricore",
+  "versions": [
+    {
+      "version": "13.4.1",
+      "bin_dirs": [
+        "bin"
+      ],
+      "archives": [
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "sha256": "22dbe2fc5195a24736b0b091a2f53f609ad0f6a35b45bfa8db8c2176c28f9a70",
+          "url": "https://github.com/NoMore201/tricore-gcc-toolchain/releases/download/13.4.1/tricore-gcc-13.4.1-linux.tar.gz"
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "sha256": "0a7390c78db27a1cf3b24046eda79f15342b94d1980d3df143eb605300ce701c",
+          "url": "https://github.com/NoMore201/tricore-gcc-toolchain/releases/download/13.4.1/tricore-gcc-13.4.1-win32.zip"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0.0",
+  "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
+  "homepage": "https://nomore201.github.io/tricore-gcc-toolchain/"
+}
